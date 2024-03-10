@@ -4,10 +4,16 @@ tags:
   - hello
 ---
 
-
 # Hello world
 
-{% test %}
-{% /test %}
+{% test /%}
 
 More text
+
+{% card title="second" href="nested/second" body="hello" %}
+children
+
+_flair_
+
+{% test /%}
+{% /card %}
